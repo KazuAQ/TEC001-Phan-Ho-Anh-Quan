@@ -7,9 +7,6 @@ class Car:
         self.max = max_speed
         self.speed = 0
         self.travelled_distance = 0
-
-    def __str__(self):
-        return f"Registration:\n{self.registration_number},\nMax Speed: {self.max} km/h,\nCurrent Speed: {self.speed} km/h,\nTravelled Distance: {self.travelled_distance} km"
     
     def accel(self, speed_change):
         self.speed += speed_change
